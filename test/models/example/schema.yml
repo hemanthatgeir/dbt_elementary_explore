@@ -4,9 +4,6 @@ models:
     elementary:
       timestamp_column: 'ts'
   tests:
-  - elementary.table_anomalies:
-      table_anomalies:
-      - schema_changes
-      tags:
-      - table_anomalies
+  - elementary.schema_changes:
+      tags: ['table_anomalies']
 version: 2
