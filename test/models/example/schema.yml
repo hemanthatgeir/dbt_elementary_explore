@@ -1,0 +1,12 @@
+models:
+- name: dt1_v
+  config:
+    elementary:
+      timestamp_column: 'ts'
+  tests:
+  - elementary.table_anomalies:
+      table_anomalies:
+      - schema_changes
+      tags:
+      - table_anomalies
+version: 2
