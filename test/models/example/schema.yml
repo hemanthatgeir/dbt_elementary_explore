@@ -6,7 +6,7 @@ models:
   tests:
   - elementary.table_anomalies:
       table_anomalies:
-      - schema_changes
+      - row_count
       tags:
       - table_anomalies
 version: 2
